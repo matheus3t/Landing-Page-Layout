@@ -87,3 +87,125 @@ header .menu {
   background-color: var(--orange);
   color: white;
 }
+/* Apresentation */
+.apresentation {
+  display: flex;
+}
+
+.apresentation section {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentation section strong {
+  width: 48%;
+
+  margin-bottom: 1.19rem;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.75rem;
+
+  line-height: 3.12rem;
+
+  text-align: justify;
+
+  color: var(--light-blue);
+}
+
+.apresentation section > p {
+  width: 49%;
+
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 1.12rem;
+
+  line-height: 1.37rem;
+
+  color: var(--text2);
+
+  margin-bottom: 2.5rem;
+}
+/* Buttons div */
+.apresentation section > div {
+  display: flex;
+}
+
+.apresentation section > div button {
+  width: 9.81rem;
+  height: 2.87rem;
+
+  border-radius: 0.19rem;
+
+  margin-bottom: 3.75rem;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.12rem;
+
+  text-transform: uppercase;
+}
+
+.apresentation section > div button:first-child {
+  background-color: var(--orange);
+  color: var(--white);
+
+  margin-right: 1.25rem;
+}
+
+.apresentation section > div button:last-child {
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+/* Video shape and side texts */
+.apresentation section div:last-child span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 8.75rem;
+  height: 5rem;
+
+  background-color: #361c5d;
+
+  border-radius: 0.25rem;
+
+  margin-right: 1.25rem;
+}
+
+.apresentation section div:last-child div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apresentation section div:last-child p {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.37rem;
+}
+
+.apresentation section div:last-child p:first-child {
+  width: 61%;
+
+  font-size: 1rem;
+
+  color: var(--text2);
+
+  margin-bottom: 0.37rem;
+}
+
+.apresentation section div:last-child p:last-child {
+  font-size: 0.87rem;
+
+  color: #6d6d78;
+}
+/* Vector of a running man */
+.apresentation .runman {
+  position: absolute;
+
+  width: 45%;
+
+  top: 177px;
+  left: 740px;
+}
