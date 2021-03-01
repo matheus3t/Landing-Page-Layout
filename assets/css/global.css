@@ -1,5 +1,6 @@
 @import url("//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   margin: 0;
@@ -27,6 +28,7 @@
   --orange: #f2994a;
   --light-blue: #99efd0;
   --text: #b5b5b5;
+  --text2: #8476aa;
 }
 
 a {
