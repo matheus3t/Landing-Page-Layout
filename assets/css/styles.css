@@ -85,6 +85,9 @@ header .menu {
 
 .login button:last-child {
   background-color: var(--orange);
+
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+
   color: white;
 }
 /* Apresentation */
