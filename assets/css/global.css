@@ -47,7 +47,7 @@ ul {
 
 /* Background color for layout */
 body {
-  background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+  background-color: #0f1145;
   max-width: 1440px;
   overflow-x: hidden;
 }
@@ -61,4 +61,9 @@ body {
 
   display: flex;
   flex-direction: column;
+}
+
+.gradient {
+  height: 1509px;
+  background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
 }
