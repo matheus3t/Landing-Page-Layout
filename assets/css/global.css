@@ -1,0 +1,60 @@
+@import url("//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For resolutions less than 1080px */
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+/* For resolutions less than 720px */
+@media (max-width: 720px) {
+  html {
+    font: 87.5%;
+  }
+}
+
+/* Colors to be used in layout */
+:root {
+  --white: #ffffff;
+  --orange: #f2994a;
+  --light-blue: #99efd0;
+  --text: #b5b5b5;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Background color for layout */
+body {
+  background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+}
+
+/* Covers the entire layout */
+.container {
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
