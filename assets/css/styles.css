@@ -3,13 +3,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  margin-bottom: 8.44rem;
 }
 
 header .menu {
   display: flex;
   align-items: center;
 }
-
+/* Logo shape */
 .menu .logo-circle-shape {
   display: flex;
   align-items: center;
@@ -24,7 +26,7 @@ header .menu {
   background: var(--orange);
 }
 
-.logo-rectangle-shape {
+.menu .logo-circle-shape .logo-rectangle-shape {
   width: 0.87rem;
   height: 0.37rem;
 
@@ -35,7 +37,7 @@ header .menu {
   background-color: var(--white);
 }
 
-.logo-rectangle-shape:first-child {
+.menu .logo-circle-shape .logo-rectangle-shape:first-child {
   margin-bottom: 0.1rem;
 }
 
@@ -73,7 +75,11 @@ header .menu {
 
 .login button:first-child {
   background-color: transparent;
+
   border: 1px solid var(--orange);
+
+  margin-right: 1.25rem;
+
   color: var(--orange);
 }
 
