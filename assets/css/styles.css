@@ -1,0 +1,83 @@
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu .logo-circle-shape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 2.25rem;
+  height: 2.25rem;
+
+  border-radius: 50%;
+
+  background: var(--orange);
+}
+
+.logo-rectangle-shape {
+  width: 0.87rem;
+  height: 0.37rem;
+
+  border-radius: 0.125rem;
+
+  font-size: 0;
+
+  background-color: var(--white);
+}
+
+.logo-rectangle-shape:first-child {
+  margin-bottom: 0.1rem;
+}
+
+.menu ul {
+  display: flex;
+  margin-left: 2.75rem;
+}
+
+.menu ul li {
+  margin-right: 1rem;
+
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 0.85rem;
+
+  letter-spacing: 0.12rem;
+
+  text-transform: uppercase;
+
+  color: var(--text);
+}
+
+.login button {
+  width: 7rem;
+  height: 2.25rem;
+
+  border-radius: 0.25rem;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.12rem;
+
+  text-transform: uppercase;
+}
+
+.login button:first-child {
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+.login button:last-child {
+  background-color: var(--orange);
+  color: white;
+}
