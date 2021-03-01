@@ -133,7 +133,11 @@ header .menu {
   display: flex;
 }
 
-.apresentation section > div button {
+.apresentation section > div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 9.81rem;
   height: 2.87rem;
 
@@ -149,16 +153,21 @@ header .menu {
   text-transform: uppercase;
 }
 
-.apresentation section > div button:first-child {
+.apresentation section > div a:first-child {
   background-color: var(--orange);
+
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+
   color: var(--white);
 
   margin-right: 1.25rem;
 }
 
-.apresentation section > div button:last-child {
+.apresentation section > div a:last-child {
   background-color: transparent;
+
   border: 1px solid var(--orange);
+
   color: var(--orange);
 }
 /* Video shape and side texts */
@@ -211,4 +220,67 @@ header .menu {
 
   top: 177px;
   left: 740px;
+}
+/* Companies */
+.companies ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: 6.25rem 0 6.18rem 0;
+
+  opacity: 0.3;
+}
+/* Features */
+.features div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features div:first-child h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.62rem;
+
+  line-height: 3.12rem;
+
+  color: var(--light-blue);
+
+  margin-bottom: 0.81rem;
+}
+
+.features div:first-child p {
+  font-family: "Gilroy-SemiBold";
+  font-size: 1rem;
+
+  line-height: 1.37rem;
+
+  color: var(--text2);
+}
+
+.features div:last-child ul {
+  display: flex;
+}
+.features div:last-child ul li {
+  margin: 3.12rem 3.12rem 0 0;
+}
+
+.features div:last-child ul li strong {
+  font-family: "Gilroy-SemiBold";
+  font-size: 1.12rem;
+
+  line-height: 1.37rem;
+
+  color: var(--light-blue);
+}
+
+.features div:last-child ul li p {
+  font-family: "Gilroy-SemiBold";
+  font-size: 0.87rem;
+
+  line-height: 1.37rem;
+
+  color: var(--text2);
+
+  margin-top: 0.62rem;
 }
