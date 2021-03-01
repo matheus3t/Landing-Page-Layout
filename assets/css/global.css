@@ -48,12 +48,14 @@ ul {
 /* Background color for layout */
 body {
   background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+  max-width: 1440px;
+  overflow-x: hidden;
 }
 
 /* Covers the entire layout */
 .container {
   height: 100vh;
-  max-width: 992px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
 
