@@ -284,3 +284,108 @@ header .menu {
 
   margin-top: 0.62rem;
 }
+
+.increase-business-traffic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.increase-business-traffic div:first-child {
+  display: flex;
+  flex-direction: column;
+
+  margin: 12.81rem 3.64rem 0 0;
+}
+
+.increase-business-traffic div:first-child strong {
+  width: 50%;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.62rem;
+
+  line-height: 3.12rem;
+
+  color: var(--light-blue);
+
+  margin-bottom: 2rem;
+}
+
+.increase-business-traffic div:first-child strong span {
+  color: var(--orange);
+}
+
+.increase-business-traffic div:first-child p {
+  width: 65%;
+
+  font-family: "Gilroy-SemiBold";
+  font-size: 0.93rem;
+
+  line-height: 1.75rem;
+
+  letter-spacing: 0.03rem;
+
+  color: var(--text2);
+
+  margin-bottom: 2.68rem;
+}
+
+.increase-business-traffic div:first-child a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 9.68rem;
+  height: 3rem;
+
+  border-radius: 0.19rem;
+
+  background-color: var(--orange);
+
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+
+  color: var(--white);
+}
+
+.increase-business-traffic div:last-child {
+  margin-top: 10.1rem;
+}
+
+.increase-business-traffic div:last-child .grid-points {
+  width: 8.71rem;
+  height: 9.55rem;
+
+  position: absolute;
+
+  right: 222px;
+  top: 1650px;
+}
+
+.increase-business-traffic div:last-child .people-holding-pencil {
+  width: 17.87rem;
+  height: 22.34rem;
+
+  position: absolute;
+
+  right: 269.37px;
+  top: 1405px;
+}
+
+.increase-business-traffic div:last-child .overview {
+  width: 14.5rem;
+  height: 14.07rem;
+
+  position: absolute;
+
+  right: 430.27px;
+}
+
+.increase-business-traffic div:last-child .target-up {
+  width: 5.58rem;
+  height: 5.02rem;
+
+  position: absolute;
+
+  right: 430.27px;
+  top: 1733px;
+}
